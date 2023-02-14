@@ -19,3 +19,7 @@ terraform {
     module_name = "blueprints/terraform/terraform-google-three-tier-app/v0.1.5"
   }
 }
+
+data "google_project" "project" {
+  project_id = var.project_id
+}
