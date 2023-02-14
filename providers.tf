@@ -1,6 +1,6 @@
 terraform {
   backend "gcs"{
-      bucket = "webapp-terraform-state"
+      bucket = "webapp-tf"
       prefix = "three-tier-app"
   }
 }
