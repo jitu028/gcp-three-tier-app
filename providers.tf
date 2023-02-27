@@ -1,6 +1,6 @@
 terraform {
   backend "gcs"{
-      bucket = "webapp-tf"
+      bucket = "kpweb1"
       prefix = "three-tier-app"
   }
 }

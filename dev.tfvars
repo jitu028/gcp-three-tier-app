@@ -1,4 +1,4 @@
 //value for dev
-region          = "us-central1"
-zone            = "us-central1-a"
-project_id      = "three-tier-app-prj"
+region          = "europe-west1"
+zone            = "europe-west1-b"
+project_id      = "stunning-crane-370909"
